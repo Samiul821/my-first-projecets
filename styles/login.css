@@ -17,3 +17,7 @@ body{
     border-radius: 15px;
     border: 1px solid #fff;
 }
+form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
