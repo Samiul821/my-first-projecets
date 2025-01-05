@@ -32,3 +32,9 @@ input{
     color: #fff;
     font-size: 13px;
 }
+input::placeholder{
+    color: #fff;
+}
+input:focus{
+     outline: none;
+}
