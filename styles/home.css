@@ -6,7 +6,8 @@ ul{
    overflow: hidden;
    margin: 0;
    padding: 0;
-   color: #333;
+   background-color: #333;
+   border-radius: 5px;
 }
 li{
     float: left;
@@ -21,4 +22,10 @@ li a{
     color: white;
     padding: 14px 16px;
     text-decoration: none;
+}
+li a:hover:not(.activ){
+    background-color: #00d2d3;
+}
+.activ{
+    background-color: #04AA6D;
 }
