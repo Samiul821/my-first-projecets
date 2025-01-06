@@ -35,3 +35,22 @@ input{
     color: #fff;
     font-size: 13px;
 }
+input::placeholder{
+    color: #fff;
+}
+input::focus{
+    outline: none;
+}
+.div2 input{
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+h2{
+    padding: 5px;
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+}
+label{
+    color: white;
+}
