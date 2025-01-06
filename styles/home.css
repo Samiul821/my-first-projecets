@@ -1,6 +1,10 @@
 body{
     background-color: #45aaf2;
 }
+h1{
+    text-align: center;
+    font-size: 40px;
+}
 ul{
     list-style-type: none;
     overflow: hidden;
@@ -29,4 +33,7 @@ ul{
  .activ{
      background-color: #04AA6D;
  }
- 
+ footer{
+       text-align: center;
+       margin-top: 15px;
+ }
