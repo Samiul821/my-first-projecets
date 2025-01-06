@@ -1,12 +1,14 @@
-
 body{
+    margin: 0;
+    background-image: url(../Images/yellowstone-national-park-sunset-twilight-dusk-158489.jpeg);
+    background-size: cover;
+}
+main{
     margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url(../Images/yellowstone-national-park-sunset-twilight-dusk-158489.jpeg);
-    background-size: cover;
 }
 .div1{
     width: 350px;

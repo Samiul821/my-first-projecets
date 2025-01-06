@@ -1,17 +1,14 @@
-body{
-    background-color: #45aaf2;
-}
 ul{
     list-style-type: none;
     overflow: hidden;
     margin: 10px;
     padding: 0;
-    background-color: #333;
-    border-radius: 10px;
+
+    border-radius: 5px;
  }
  li{
      float: left;
-     border-right: 1px solid #bbb;
+    
  }
  li:last-child {
      border-right: none;
@@ -22,10 +19,12 @@ ul{
      color: white;
      padding: 14px 16px;
      text-decoration: none;
+     border-radius: 10px;
  }
  li a:hover:not(.activ){
      background-color: #00d2d3;
  }
  .activ{
      background-color: #04AA6D;
+     border-radius: 10px;
  }
